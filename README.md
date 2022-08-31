@@ -2,7 +2,7 @@
 
 Deploy Jitsi with :
 
-- Jitsi Video Bridges
-- Jibris
-- A modified Jicofo that has persistent Moderation
+- Jitsi Video Bridges(JVB)
+- Multiple Recorders (Jibri)
+
 
