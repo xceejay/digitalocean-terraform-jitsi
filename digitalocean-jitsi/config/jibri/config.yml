@@ -1,0 +1,11 @@
+process_names:
+  - comm:
+    - ffmpeg
+    - python3
+    - aws
+  - exe:
+    - /usr/bin/ffmpeg
+    - /usr/bin/aws
+    cmdline:
+    - '.+'
+    name: upstart:-user

@@ -1,0 +1,9 @@
+We should run terraform in the background so that it can happen in the background and notify apollo when its done!
+This will ensure the http request dont block for too long as the timeout will be triggered if not implemented.
+
+
+@joel Good Idea. When we want to tear down the recorders we just need their digital ocean IDs
+
+we could use a curl to update the db anytime a recorder is created and remove from the db anytime a recorder is removed 
+
+And that same db will be used to get the id of the recorders that need to be removed. You can suggest fields for the db and type them here so i get a better idea. maybe domain it was spin for,the date etc

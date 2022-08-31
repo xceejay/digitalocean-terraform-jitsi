@@ -1,0 +1,9 @@
+[Unit]
+Description=Example systemd service.
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/process-exporter -config.path /home/recordings/config.yml
+
+[Install]
+WantedBy=multi-user.target

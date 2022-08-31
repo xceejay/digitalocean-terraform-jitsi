@@ -1,12 +1,8 @@
-# Digital Ocean Deployment(Terraform)
-Automatically deploy a scalable Jitsi Instance with a video bridge and a jibri(recorder) with terraform
+# DIGITAL OCEAN JITSI DEPLOYMENT
 
-## Introduction
+Deploy Jitsi with :
 
-Jitsi is an open source video conferencing solution. In this
-repository you find Terraform scripts to automatically
-deploy a Jitsi instance with video bridges and a recorder(jibri) on a Digital Ocean server.
+- Jitsi Video Bridges
+- Jibris
+- A modified Jicofo that has persistent Moderation
 
-## License
-
-Apache 2.0 License

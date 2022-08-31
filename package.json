@@ -1,0 +1,22 @@
+{
+  "name": "terraform.domain.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "code@terraform.domain.com:/home/code/repo/terraform.domain.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "random-words": "^1.1.1",
+    "redis": "^3.0.2",
+    "uniqid": "^5.2.0"
+  }
+}
