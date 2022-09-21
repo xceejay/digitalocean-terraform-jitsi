@@ -1,6 +1,6 @@
 # Digital Ocean Jitsi Deployment
 
-Deploy Jitsi to Digital Ocean with these simple scripts.
+Deploy Jitsi with multiple Videobriges and Recorders(Jibri) to Digital Ocean with these simple scripts.
 
 ## Getting Started
 
