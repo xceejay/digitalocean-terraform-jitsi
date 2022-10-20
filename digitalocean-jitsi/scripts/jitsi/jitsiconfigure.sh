@@ -36,7 +36,7 @@ domain=$(grep  -E --color=never -m 1 -o '([a-z0-9]*|[a-z0-9]*-[a-z0-9]*).domainc
 # copy new files to right locations
 cp -fr /tmp/app.bundle.min.js /usr/share/jitsi-meet/libs
 cp -fr /tmp/images/* /usr/share/jitsi-meet/images/
-#cp -fr /tmp/all.css /usr/share/jitsi-meet/css/all.css
+#cp -fr /tmp/all.css.tpl /usr/share/jitsi-meet/css/all.css
 cp -fr /tmp/interface_config.js /usr/share/jitsi-meet/interface_config.js
 cp -fr /tmp/favicon.ico /usr/share/jitsi-meet/favicon.ico
 cp -fr /tmp/*-config.js /etc/jitsi/meet/$domain-config.js
